@@ -1,4 +1,4 @@
-TARGET = blink-plain
+TARGET = output
 
 AS = arm-none-eabi-as
 LD = arm-none-eabi-ld
@@ -59,4 +59,4 @@ clean:
 	$(RM) src/*.o
 	$(RM) inc/*.o
 	$(RM) *.elf
-	$(RM) *.lst
+	$(RM) *.bin
