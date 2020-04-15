@@ -60,3 +60,4 @@ clean:
 	$(RM) inc/*.o
 	$(RM) *.elf
 	$(RM) *.bin
+	$(RM) *.lst
